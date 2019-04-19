@@ -98,11 +98,11 @@ run `hal deploy apply`.
 
 ### Running Spinnaker + Prometheus Operator on Kubernetes
 
-When running Spinnaker on a Kubernetes cluster, [Prometheus Operator](https://github.com/coreos/prometheus-operator)
-is often used to install and run Prometheus on your Kubernetes clusters.
+  When running Spinnaker on a Kubernetes cluster, [Prometheus Operator](https://github.com/coreos/prometheus-operator)
+  is often used to install and run Prometheus on your Kubernetes clusters.
 
-Read about support for [Prometheus Operator](https://github.com/spinnaker/spinnaker-monitoring/tree/master/spinnaker-monitoring-third-party/third_party/prometheus_operator/README.md)
-and leverage the `setup.sh` script to complete your Prometheus Operator + Spinnaker configuration.
+  Read about support for [Prometheus Operator](https://github.com/spinnaker/spinnaker-monitoring/tree/master/spinnaker-monitoring-third-party/third_party/prometheus_operator/README.md)
+  and leverage the `setup.sh` script to complete your Prometheus Operator + Spinnaker configuration.
 
 ### Running Spinnaker + Prometheus on virtual machines
 
@@ -120,7 +120,7 @@ and leverage the `setup.sh` script to complete your Prometheus Operator + Spinna
 
   2. Run the server-side configuration script.
      ```
-     /opt/spinnaker-monitoring/third_party/prometheus/install \
+     /opt/spinnaker-monitoring/third_party/prometheus/install.sh \
          --server_only
      ```
 
@@ -148,7 +148,7 @@ the `spinnaker-monitoring-third-party` package as described above, do so now.
 
   1. Install the dashboards
   ```
-  /opt/spinnaker-monitoring/third_party/prometheus/install --dashboards_only
+  /opt/spinnaker-monitoring/third_party/prometheus/install.sh --dashboards_only
   ```
 
   2. Open http://localhost:3000 in your browser
