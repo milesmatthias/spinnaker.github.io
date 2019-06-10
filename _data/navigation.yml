@@ -145,6 +145,8 @@ setup:
             url: /setup/triggers/google/
           - title: GitHub Webhook
             url: /setup/triggers/github/
+      - title: Set up the spin CLI
+        url: /setup/spin/
       - title: Add Your CI system
         collapsed: true
         children:
@@ -222,6 +224,8 @@ guides:
             url: /guides/tutorials/codelabs/hello-deployment/
           - title: Deploy GCS Pub/Sub Artifacts to Cloud Foundry
             url: /guides/tutorials/codelabs/pubsub-to-cf/
+          - title: Deploy Artifacts from Artifactory to Cloud Foundry
+            url: /guides/tutorials/codelabs/artifactory-to-cf/
           - title: GCE Source To Prod
             url: https://codelabs.developers.google.com/codelabs/bake-and-deploy-pipeline
           - title: Kubernetes Source To Prod
@@ -388,8 +392,8 @@ guides:
   - title: Spin CLI
     collapsed: true
     children:
-      - title: Install and Configure Spin CLI
-        url: /guides/spin/cli/
+      - title: Spin CLI Guide
+        url: /guides/spin/
       - title: Manage Applications
         url: /guides/spin/app/
       - title: Manage Pipelines
@@ -534,6 +538,11 @@ community:
     children:
       - title: FAQs
         url: /community/faqs/
+  - title: Security
+    collapsed: true
+    children:
+      - title: Security
+        url: /community/security/
 
 publications:
   - title: eBook
