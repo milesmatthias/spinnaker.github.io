@@ -60,7 +60,7 @@ within pipelines, or produced by pipelines.
 
   "reference":  // The URI.
 
-  "artifactAccount": // The account configured within Spinnaker that has
+  "artifactAccount": // (Optional) The account configured within Spinnaker that has
                 // permission to download this resource.
 
   "name":       // (Optional) A human-readable name that makes matching
