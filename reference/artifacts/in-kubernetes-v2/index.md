@@ -59,7 +59,7 @@ As described in the [manifests as artifacts](#manifests-as-artifacts) section,
 a deploy stage would _consume_ artifact 1, but _produce_ artifact 2 as an output.
 
 When running pipelines, you can always check the produced outputs for any stage
-by examinging the execution's "source" directly:
+by examining the execution's "source" directly:
 
 {%
   include
